@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallpaper Gallery</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="index.html">
+                Explore Wallpapers
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="gallery.html">Gallery</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="categories.html">Categories</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <section class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-5 fw-bold">Wallpaper Gallery</h1>
+            <p>Browse HD and 4K Wallpapers</p>
+        </div>
+    </section>
+
+    <!-- Search -->
+    <section class="py-4">
+        <div class="container">
+
+            <div class="row justify-content-center">
+
+                <div class="col-md-6">
+                    <input
+                        type="text"
+                        id="searchInput"
+                        class="form-control"
+                        placeholder="Search wallpapers..."
+                        onkeyup="searchWallpaper()">
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="pb-5">
+        <div class="container">
+
+            <div class="row g-4" id="gallery">
+
+                <!-- Card 1 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 wallpaper-card">
+                    <div class="card shadow h-100">
+                        <img src="images/nature1.jpg" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5>Nature</h5>
+                            <a href="images/nature1.jpg" download class="btn btn-primary">
+                                Download
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 wallpaper-card">
+                    <div class="card shadow h-100">
+                        <img src="images/nature2.jpg" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5>Forest</h5>
+                            <a href="images/nature2.jpg" download class="btn btn-primary">
+                                Download
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 wallpaper-card">
+                    <div class="card shadow h-100">
+                        <img src="images/car1.jpg" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5>Sports Car</h5>
+                            <a href="images/car1.jpg" download class="btn btn-primary">
+                                Download
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 wallpaper-card">
+                    <div class="card shadow h-100">
+                        <img src="images/car2.jpg" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5>Luxury Car</h5>
+                            <a href="images/car2.jpg" download class="btn btn-primary">
+                                Download
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 wallpaper-card">
+                    <div class="card shadow h-100">
+                        <img src="images/anime1.jpg" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5>Anime Girl</h5>
+                            <a href="images/anime1.jpg" download class="btn btn-primary">
+                                Download
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 wallpaper-card">
+                    <div class="card shadow h-100">
+                        <img src="images/anime2.jpg" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5>Anime Hero</h5>
+                            <a href="images/anime2.jpg" download class="btn btn-primary">
+                                Download
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 7 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 wallpaper-card">
+                    <div class="card shadow h-100">
+                        <img src="images/gaming1.jpg" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5>Gaming Setup</h5>
+                            <a href="images/gaming1.jpg" download class="btn btn-primary">
+                                Download
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 8 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 wallpaper-card">
+                    <div class="card shadow h-100">
+                        <img src="images/gaming2.jpg" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5>Esports</h5>
+                            <a href="images/gaming2.jpg" download class="btn btn-primary">
+                                Download
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 9 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 wallpaper-card">
+                    <div class="card shadow h-100">
+                        <img src="images/space1.jpg" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5>Space</h5>
+                            <a href="images/space1.jpg" download class="btn btn-primary">
+                                Download
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 10 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 wallpaper-card">
+                    <div class="card shadow h-100">
+                        <img src="images/space2.jpg" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5>Galaxy</h5>
+                            <a href="images/space2.jpg" download class="btn btn-primary">
+                                Download
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 11 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 wallpaper-card">
+                    <div class="card shadow h-100">
+                        <img src="images/tech1.jpg" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5>Technology</h5>
+                            <a href="images/tech1.jpg" download class="btn btn-primary">
+                                Download
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 12 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 wallpaper-card">
+                    <div class="card shadow h-100">
+                        <img src="images/tech2.jpg" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5>Programming</h5>
+                            <a href="images/tech2.jpg" download class="btn btn-primary">
+                                Download
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <p class="mb-0">
+            © 2026 Explore Wallpapers | Designed by Shraddha Pethkar
+        </p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

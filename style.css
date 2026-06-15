@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f8f9fa;
+    font-family:Arial, sans-serif;
+}
+
+.navbar-brand{
+    letter-spacing:1px;
+}
+
+.card{
+    border:none;
+    transition:0.4s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card img{
+    height:220px;
+    object-fit:cover;
+}
+
+.btn{
+    transition:0.3s;
+}
+
+.btn:hover{
+    transform:scale(1.05);
+}
+
+footer{
+    letter-spacing:1px;
+}
+
+.hero-img{
+    height:500px;
+    object-fit:cover;
+}
+
+section{
+    overflow:hidden;
+}
+
+.bi{
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.bi:hover{
+    transform:scale(1.2);
+}
