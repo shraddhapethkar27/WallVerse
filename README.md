@@ -1,7 +1,7 @@
 # WallVerse
 Discover Beautiful HD Wallpapers.
 
-# Explore Wallpapers
+## Explore Wallpapers
 
 A responsive wallpaper gallery website built using HTML, CSS, JavaScript, and Bootstrap 5.
 
@@ -43,5 +43,5 @@ Explore-Wallpapers/
 
 Computer Science and Engineering Student
 
-live demo:-
+###live demo:-
 https://shraddhapethkar27.github.io/WallVerse/
