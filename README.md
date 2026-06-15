@@ -1,5 +1,6 @@
 # WallVerse
-Discover Beautiful HD & 4K Wallpapers for Every Screen.
+Discover Beautiful HD Wallpapers.
+
 # Explore Wallpapers
 
 A responsive wallpaper gallery website built using HTML, CSS, JavaScript, and Bootstrap 5.
@@ -31,12 +32,16 @@ Explore-Wallpapers/
 ├── categories.html
 ├── about.html
 ├── contact.html
-├── css/
-├── js/
+├── style.css
+├── script.js
 └── images/
 ```
 
-## Author
+## Created by
 
 **Shraddha Pethkar**
+
 Computer Science and Engineering Student
+
+live demo:-
+https://shraddhapethkar27.github.io/WallVerse/
